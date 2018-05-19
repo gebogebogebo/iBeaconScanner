@@ -1,0 +1,10 @@
+.gitignore
+obj
+log
+*.pdb
+*.suo
+*.vshost.exe
+*.vshost.exe.*
+*.log
+*.udl
+*.csproj.user
