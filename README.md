@@ -1,7 +1,7 @@
 iBeaconScanner
 ====
 
-iBeaconが発信するのアドバタイズパケットを受信するサンプルプログラム
+iBeaconが発信するアドバタイズパケットを受信するサンプルプログラム
 A sample program that receives iBeacon sending advertisement packets
 
 ## Description
