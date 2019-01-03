@@ -9,7 +9,7 @@ A sample program that receives iBeacon sending advertisement packets
 - Visual Studio 2015
 - C# Desktop Applicaion
 - .Net Framework 4.5.2
-- Click [here](https://qiita.com/gebo/items/469dd49ddd1e24ce7a42) for details
+- Read [Qiita](https://qiita.com/gebo/items/469dd49ddd1e24ce7a42) for details
 
 ## Requirement
 - iBeacon Device
