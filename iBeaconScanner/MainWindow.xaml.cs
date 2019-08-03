@@ -16,6 +16,8 @@ namespace iBeaconScanner
         {
             InitializeComponent();
 
+            this.textBox.Text = "Win10-1903 Ready\r\n";
+
             this.advWatcher = new BluetoothLEAdvertisementWatcher();
 
             // https://blogs.msdn.microsoft.com/shozoa/2016/02/28/windows-10-bluetooth/
@@ -29,6 +31,8 @@ namespace iBeaconScanner
 
             // スキャン開始
             this.advWatcher.Start();
+
+            this.textBox.Text = this.textBox.Text + "Scan Start!\r\n";
         }
 
         private async void Watcher_Received(BluetoothLEAdvertisementWatcher sender, BluetoothLEAdvertisementReceivedEventArgs args)
